@@ -1,3 +1,0 @@
-Arduino Nano ESP32 & DHT11 Humidity Sensor
-
-How to connect the Arduino Nano ESP32 to a DHT11 integrated sensor that reads ambient temperature (in both C and F) and humidity. This example also includes sensing moisture through an analog capacitive soil moisture sensor.  
