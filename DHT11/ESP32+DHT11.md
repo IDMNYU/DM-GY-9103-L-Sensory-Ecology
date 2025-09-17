@@ -1,4 +1,5 @@
 # DHT11 (Digital temperature & humidity)
+[![DHT11](/images/SNS-DH11-1.jpg)](https://components101.com/sensors/dht11-temperature-sensor)
 
 The DHT11 is a low-cost combined humidity and temperature sensor. Inside, a polymer capacitive element measures moisture in the air and a thermistor measures temperature. A small IC converts those readings to a digital signal on a single DATA line (a timing-based, one-wire-style protocol). It’s simple, cheap, and fine for basic indoor projects as long as you don’t expect accuracy nor speed.
 
@@ -14,7 +15,7 @@ The DHT11 is a low-cost combined humidity and temperature sensor. Inside, a poly
 
 **Interface:** single DATA pin with pull-up resistor (often built-in on 3-pin modules)
 
-**Wiring (3-pin module → Arduino Nano ESP32):**
+## Wiring (3-pin module → Arduino Nano ESP32)
 
 VCC → 3V3
 
