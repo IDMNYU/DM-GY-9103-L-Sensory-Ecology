@@ -60,7 +60,7 @@ void loop() {
   // move the cursor to the location
   display.setCursor(75, 20);
   // erase what was there previously
-  display.print("   ");
+  display.print("    ");
   // move the cursor back to position
   display.setCursor(75, 20);
   // print the sensor value
