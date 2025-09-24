@@ -1,7 +1,7 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-char ssid[] = "NetworkName";        // your network SSID (name)
+char ssid[] = "NetworkName";  // your network SSID (name)
 char pass[] = "Password";  // your network password
 
 HTTPClient client;
