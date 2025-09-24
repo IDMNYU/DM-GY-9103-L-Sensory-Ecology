@@ -1,24 +1,27 @@
+// EXAMPLE WRITTEN FOR ESP32 NANO
+// necessary libraries
 #include <WiFi.h>
 #include <HTTPClient.h>
 #include <Arduino_JSON.h>
 
 char ssid[] = "Network";        // your network SSID (name)
-char pass[] = "Password";  // your network password
+char pass[] = "Pass";  // your network password
 
-HTTPClient client;
+HTTPClient client; // client class
 
 unsigned long previousMillis = 0;  // will store last time client req was updated
 const long interval = 60000;       // interval at which to make a req (milliseconds)
 
 void setup() {
-  Serial.begin(115200);
-  while (!Serial) { ; };
+  Serial.begin(115200); // start serial
+  while (!Serial) { ; }; // wait until a serial connectio is made
+
+  // configure onboard LED as output
+  pinMode(LED_BUILTIN, OUTPUT);
 
   // Connect to WiFi network
   Serial.print("Connecting to ");
   Serial.println(ssid);
-
-  // log on to network
   WiFi.begin(ssid, pass);
 
   // wait to get on
@@ -28,7 +31,7 @@ void setup() {
   }
   Serial.println("");
 
-  // print put local IP address and verify port
+  // print local IP address
   Serial.println("WiFi connected");
   Serial.println("IP address: ");
   Serial.println(WiFi.localIP());
@@ -50,21 +53,23 @@ void loop() {
   }
 }
 
+// function that makes the request
 void makeRequest() {
   Serial.println("client GET...");
   // start connection and send HTTP header
   int httpCode = client.GET();
 
-  // httpCode will be negative on error
+  // httpCode will be negative on error. If it's ok, proceed
   if (httpCode > 0) {
-    // HTTP header has been sent and the server response header has been handled
+    // We know the HTTP header has been sent and the server response has been received
     Serial.print("HTTP GET... code:");
     Serial.println(httpCode);
 
-    // if the file is found at the server
+    // if the requested file is found at the server
     if (httpCode == HTTP_CODE_OK) {
-      // parse the data
+      // store the body as a string 
       String payload = client.getString();
+      // parse the data as JSON (see below)
       parseJSON(payload);
     }
   } else { // if we have a problem, report it
@@ -76,10 +81,11 @@ void makeRequest() {
 }
 
 // fxn that parses the data
+// receives String as an argument
 void parseJSON(String response) {
-  // create a new JSON datatype with the info from the server 
+  // create a new variabkle as a JSON datatype with the info from the server 
   JSONVar JSONresp = JSON.parse(response);
-  // print it out!
+  // print it out serially
   Serial.println(JSONresp);
 
   // print the keys
@@ -132,5 +138,13 @@ void parseJSON(String response) {
     JSONVar name;
     name = people[x]["name"];
     Serial.println(name);
+  }
+
+  // blink the on-board LED once for each astronaut
+  for(int x =0; x<peopleLength; x++){
+    digitalWrite(LED_BUILTIN, HIGH);
+    delay(100);
+    digitalWrite(LED_BUILTIN, LOW);
+    delay(100);
   }
 }
