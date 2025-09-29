@@ -27,6 +27,8 @@ If you have a bare 4-pin DHT11, add a 10 kΩ pull-up from DATA to VCC.
 
 <img src="/images/ESP32_Dht11_bb.png" alt="ESP32 + DHT11" width="400">
 
+## Arduino Code Example
+
 ```
 
 #include <SPI.h>
