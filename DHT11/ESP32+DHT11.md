@@ -25,6 +25,8 @@ DATA → D2 (any GPIO works).
 
 If you have a bare 4-pin DHT11, add a 10 kΩ pull-up from DATA to VCC.
 
+[![DHT11](/images/SNS-DH11-1.jpg)](https://components101.com/sensors/dht11-temperature-sensor)
+
 
 ```
 
