@@ -1,6 +1,6 @@
 # Playing audio files with the DFRobot Mini mp3 Player
 
-(insert pic)
+
 The [DFPlayer Mini MP3 Player](https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299) For Arduino is a small and low cost MP3 module with an simplified output directly to the speaker. The module can be used as a stand alone module with attached battery, speaker and push buttons or used in combination with microcontrollers such as Arduino, ESP32, Raspberry Pi and others.
 
 All the technical specifications and details of this little board are on the DFRobot website, and you can purchase it on different platforms including the [DFRobot store website](https://www.dfrobot.com/product-1121.html). 
