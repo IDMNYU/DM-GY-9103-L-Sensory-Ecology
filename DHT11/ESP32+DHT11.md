@@ -25,7 +25,7 @@ DATA → D2 (any GPIO works).
 
 If you have a bare 4-pin DHT11, add a 10 kΩ pull-up from DATA to VCC.
 
-[![DHT11](images/ESP32_Dht11_bb.png)]
+[![ESP32+DHT11](/images/ESP32_Dht11_bb.png)]
 
 
 ```
