@@ -1,11 +1,12 @@
 # Playing audio files with the DFRobot Mini mp3 Player
 
+![DFPlayer Mini Mp3 Player](/images/mp3.png)
 
 The [DFPlayer Mini MP3 Player](https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299) For Arduino is a small and low cost MP3 module with an simplified output directly to the speaker. The module can be used as a stand alone module with attached battery, speaker and push buttons or used in combination with microcontrollers such as Arduino, ESP32, Raspberry Pi and others.
 
 All the technical specifications and details of this little board are on the DFRobot website, and you can purchase it on different platforms including the [DFRobot store website](https://www.dfrobot.com/product-1121.html). 
 
-# Some Tech Specifications
+## Some Tech Specifications
 
 - Sampling rates (kHz): 8/11.025/12/16/22.05/24/32/44.1/48
 - 24 -bit DAC output, support for dynamic range 90dB , SNR support 85dB
@@ -15,7 +16,26 @@ All the technical specifications and details of this little board are on the DFR
 - 30 level adjustable volume, 6 -level EQ adjustable
 - Working voltage: DC3.2~5V
 
-# Arduino Nano ESP32 and DFPlayer Mini Wiring 
+## Arduino Nano ESP32 and DFPlayer Mini Wiring 
+
+**DFR Mini Player → Nano ESP32**
+
+VCC→VIN (5V or 3V3)  
+
+GND→GND 
+
+RX→D7 
+
+TX→D6 
+
+SPK1→Speaker 
+
+SPK2→Speaker
+
+<img src="/images/ESP32_DFRMp3_bb.png" alt="ESP32 + DFR Mp3 Mini Player" width="420">
+
+## Arduino Code 
+This code snippet uses the DFRobot DFPlayer Mini library but instead of using software serial (which you could probably need to use for most Arduino microcontroller) it uses hardware serial as the Nano ESP32 can handle true hardware serial communication in all of its digital pins, making it for a more reliable way to communicate with the mp3 player board. This code reads the first audio file it finds in its main folder and loops it every 6 seconds. For more instructions on setting up the SD card and files, please check out the [DFRobot wiki](https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299). 
 
 ```
 #include <Arduino.h>
@@ -42,10 +62,7 @@ void setup() {
   }
 
   Serial.println(F("DFPlayer online."));
-  myDFPlayer.volume(20);   // 0..30
-  //myDFPlayer.play(1);      // plays 0001.mp3
-  //myDFPlayer.playMp3Folder(1);
-  //myDFPlayer.enableLoopAll(); //loop all mp3 files.
+  myDFPlayer.volume(20);   // Setting a volume between 0..30
 
 }
 
@@ -55,7 +72,7 @@ void loop()
   
   if (millis() - timer > 60000) {
     timer = millis();
-    //myDFPlayer.next();  //Play next mp3 every 3 second?
+    //myDFPlayer.next();  //Play same mp3 for 6 second over and over again
     myDFPlayer.playMp3Folder(1);
   }
   
