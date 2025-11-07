@@ -1,8 +1,16 @@
 # How to solar power your projects
 
-## Some options 
+## Basics of PhotoVoltaics (PV)
 
-### Lowest-power, no battery, solar circuit
+## Basic components of PV systems
 
-### 
+## Some options for projects
+
+### Lowest-power & supercapacitors 
+
+### Solar recharging 
+
+### Plug-n-play kits 
+
+### Larger DIY off-grid PV 
 
