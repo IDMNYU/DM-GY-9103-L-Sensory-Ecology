@@ -19,7 +19,11 @@ The PV modules are available in a range of brands, sizes, and output capacity, a
 #### It regulates the flow of electricity from PV modules to batteries
 ![Charge Controller](https://github.com/alexnathanson/solar-protocol/blob/17bf2e020b7f5992ba648b61bbfd3f9b7c1dcf36/wikimg/controllersm.png)
 
-The primary function of a charge controller is to regulate the flow of electric current from the array of solar modules to the batteries. This ensures the batteries are correctly charged and prevents damage from over-charging. Charge controllers come in a range of capacities based on the voltage and current they can handle. A great feature to look for is high-voltage maximum power point tracking (MPPT). An MPPT charge controller can accept the input from the solar modules at high voltage and charge the batteries at an appropriate lower voltage, using an optimization algorithm to maximize the amount of power going to the battery bank.
+The primary function of a charge controller is to regulate the flow of electric current from the array of solar modules to the batteries. This ensures the batteries are correctly charged and prevents damage from over-charging. Charge controllers come in different types (PWM vs MPPT) and range of capacities based on the voltage and current they can handle. 
+
+A **PWM (Pulse Width Modulation) charge controller** regulates the flow of power from solar panels to batteries by rapidly switching the charge on and off to maintain optimal voltage and prevent overcharging. PWM CC tend to be much cheaper but offer less flexibility. A great feature to look for is high-voltage maximum power point tracking (MPPT). 
+
+An **MPPT charge controller** can accept the input from the solar modules at high voltage and charge the batteries at an appropriate lower voltage, using an optimization algorithm to maximize the amount of power going to the battery bank.
 
 ### Battery 
 #### It stores the electricity
