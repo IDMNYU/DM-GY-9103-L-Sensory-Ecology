@@ -26,14 +26,14 @@ A **PWM (Pulse Width Modulation) charge controller** regulates the flow of power
 An **MPPT charge controller** can accept the input from the solar modules at high voltage and charge the batteries at an appropriate lower voltage, using an optimization algorithm to maximize the amount of power going to the battery bank.
 
 ### Battery 
-#### It stores the electricity
+#### It stores electricity
 ![Battery](https://github.com/alexnathanson/solar-protocol/blob/17bf2e020b7f5992ba648b61bbfd3f9b7c1dcf36/wikimg/batterysm.png)
 
-The two common types available are deep-cycle lead-acid batteries and lithium-ion batteries. Both types of batteries work well and provide dependable energy storage for off-grid solar power systems.
+The two most common types of batteries used in renewable energy systems are deep-cycle lead-acid batteries and lithium-ion batteries. Both types of batteries work well and provide dependable energy storage for off-grid solar power systems.
 
-Lead-acid batteries have been used for well over a century. They're relatively affordable and can provide plenty of electric currents. Lead-acid batteries last approximately ten years, or 1,500 cycles, providing they are well-maintained and used as directed. They are large, heavy, and require periodic maintenance, such as refilling water in the cells. They contain a mix of a recycled and new lead, a toxic metal that must be recycled properly.
+Lead-acid batteries have been used for well over a century. They're relatively more affordable and can provide plenty of electric currents. Lead-acid batteries last approximately ten years, or 1,500 cycles, providing they are well-maintained and used as directed. They are large, heavy, and require periodic maintenance. They contain a mix of a recycled and new lead, a toxic metal that must be recycled properly.
 
-Lithium-ion batteries are lighter and smaller than lead-acid batteries. They are significantly higher in price to purchase than lead-acid batteries but require less maintenance, withstand deeper discharges, and last about 13 or more years, or 2000 cycles. Lithium-ion batteries are made from a mix of recycled and new lithium, a rare and reactive metal that must be recycled properly.
+Lithium-ion batteries are lighter and smaller than lead-acid batteries. They are significantly higher in price to purchase than lead-acid batteries but require less maintenance, withstand deeper discharges, and last about 13 or more years, or 2000 cycles. Lithium-ion batteries are made from a mix of recycled and new lithium, a rare and reactive metal that must be recycled properly. They can be extremely sensitive to heat and need proper maintanance and in general can be less suitable for applications exposed to extreme weather and/or the elements. Make sure to check your local regulations about Lithium-ion batteries. 
 
 ### Inverter [Optional]
 #### It converts direct current (DC) to alternating current ([AC](https://www.buildwithrise.com/stories/ac-dc-power)) suitable for home appliances
