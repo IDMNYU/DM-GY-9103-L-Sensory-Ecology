@@ -9,14 +9,11 @@ For most DC-based off-grid systems it really comes down to four main components 
 ![PV Panel](https://github.com/alexnathanson/solar-protocol/blob/17bf2e020b7f5992ba648b61bbfd3f9b7c1dcf36/wikimg/panel.png
 )
 
-Photovoltaic means 'voltage from light' and refers to a solid-state semiconductor device, aka solar cell, that produces a potential difference (voltage) and current of electrons (electricity) when exposed to light. PV solar panels, or modules, are solar cells assembled between protective layers of glass and plastic and typically framed in aluminum. 
+Photovoltaic means 'voltage from light' and refers to a solid-state semiconductor device, aka a solar cell, that produces a potential difference (Voltage) and current of electrons (Electricity) when exposed to light. PV panels, or modules, are made of multiple solar cells assembled between protective layers of glass and plastic, and typically framed in aluminum (for easy mounting). 
 
-Using solar power is all about timing. Solar panels produce electricity when sunlight is shining on them, usually between 11 am to 4 pm. They provide more power when the sunlight is more intense and not reduced by cloud cover. They will produce some on a cloudy day, too, but typically less than 10% of what they would on a sunny day. And of course, they don't produce at night.
+Using solar power is all about timing. Solar panels produce electricity when sunlight is shining on them, usually between 11 am to 4 pm (depnding on geolocation and seasonality). They provide more power when the sunlight is more intense and not reduced by cloud cover. They will produce some on a cloudy day, too, but typically much less efficiently (less than 10%) than what they would on a sunny day. And they don't produce at night (at least for now!).
 
-The solar PV modules are available in a range of brands, sizes, and output capacity in some ways, the easiest part to source. Look for modules with all the necessary approvals (UL, CE, or CSA labeled) and a 25-year warranty on their power output. 
-
-### Solar Panel Mount
-Typically made in aluminum, solar panel racks are mounting systems used to secure the modules.
+The PV modules are available in a range of brands, sizes, and output capacity, and in some ways, they are easiest part to source in most markets. Look for modules with all the necessary approvals (UL, CE, or CSA labeled) and a 25-year warranty on their power output. 
 
 ### Charge controller 
 #### It regulates the flow of electricity from modules to batteries
