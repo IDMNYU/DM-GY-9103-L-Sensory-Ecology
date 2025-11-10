@@ -1,8 +1,8 @@
-# How to solar power your projects
+# How to Solar Power Your Projects
 
-## Basic Components of Off-grid PhotoVoltaic (PV) Systems
+## Basic Components of Off-grid PhotoVoltaic(PV) Systems
 
-For most DC-coupled off-grid systems it really comes down to four main components – solar panels, charger controller, inverter (when needed) and the battery bank. 
+For most DC-based off-grid systems it really comes down to four main components – solar panels, charger controller, battery bank, and inverter (whenever needed for powering AC-based appliances). So let's take a look at them individually: 
 
 ### PV 
 #### It produces electricity when exposed to light
