@@ -70,16 +70,13 @@ The AEMSUCA is a highly efficient solar powered supercapacitor charger with two 
 
 This circuit converts solar energy from a small solar panel into energy stored in supercapacitors and even operates under indoor light. The board provides two regulated outputs that activate once the supercapacitor is sufficiently charged, along with a low-voltage warning that signals impending shutdown.
 
-<div align="center"><img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/616b6cf070718cdd2642ce9225f1b45f73b25e44/images/aemsuca1.png" alt="Small solar recharging board" width="50%" /></div>
+The [**AEM10941 harvesting IC**](https://www.mouser.com/new/e-peas/e-peas-aem10941-solar-energy-harvesting-ic/?srsltid=AfmBOoonEYt0ZTCYKisSAj9F7xGoW5foGiZDyC6-fmOtXAsAiF072jqa) is very suitable for indoor applications because it has an ultra low power startup. The IC gets most power out of the solar cells by doing MPPT maximum power point tracking every 5 seconds. The AEM10941 can charge a series of supercapacitors from indoor light but it is suitable ONLY for **very low power applications**.
+
+<div align="center"><img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/616b6cf070718cdd2642ce9225f1b45f73b25e44/images/aemsuca1.png" alt="Small solar recharging board" width="60%" /></div>
 <div align="center"><sub>The AEMSUCA powering a TrinketM0 and OLED Display</sub></div>
 <br>
-
-<div align="center"><img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/616b6cf070718cdd2642ce9225f1b45f73b25e44/images/aemsuca2.png" alt="Small solar recharging board" width="50%" /></div>
+<div align="center"><img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/616b6cf070718cdd2642ce9225f1b45f73b25e44/images/aemsuca2.png" alt="Small solar recharging board" width="60%" /></div>
 <div align="center"><sub>The AEMSUCA powering a TrinketM0 and E-Paper Display</sub></div>
-<br>
-
-
-The [**AEM10941 harvesting IC**](https://www.mouser.com/new/e-peas/e-peas-aem10941-solar-energy-harvesting-ic/?srsltid=AfmBOoonEYt0ZTCYKisSAj9F7xGoW5foGiZDyC6-fmOtXAsAiF072jqa) is very suitable for indoor applications because it has an ultra low power startup. The IC gets most power out of the solar cells by doing MPPT maximum power point tracking every 5 seconds. The AEM10941 can charge a series of supercapacitors from indoor light but it is suitable ONLY for **very low power applications**.
 
 ## Solar Recharging Circuits 
 Most small solar setups for microcontrollers use low-wattage panels connected to a charging circuit with lithium-polymer or lithium-ion batteries. Lithium-ion or lithium-polymer batteries are the standard choice for microcontrollers because they offer high energy density, stable voltage, and reliable rechargeable performance in a compact form. Unfortunately though, lithium-ion and lithium-polymer batteries are generally more suitable for indoor conditions, since they perform best within moderate temperature ranges and can be sensitive to extreme heat, cold, or direct sunlight.
