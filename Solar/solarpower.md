@@ -72,17 +72,19 @@ Here are a couple of **recharging circuits** available from [Adafruit Industries
 <div align="center"><sub>Adafruit USB/DC/Solar Lithium-Ion/Polymer Charger</sub></div>
 <br>
 
-This circuit is designed specifically for solar charging, and will automatically draw the most current possible from the panel in any light condition. Even thought it isn't a 'true' MPPT (max power point tracker), it offers a similar performance. Adafruit offers [detailed tutorials on how to use this charger as well as documentation on how it all works](http://learn.adafruit.com/usb-dc-and-solar-lipoly-charger).
+[This circuit](https://www.adafruit.com/product/390) is designed specifically for solar charging, and will automatically draw the most current possible from the panel in any light condition. Even thought it isn't a 'true' MPPT (max power point tracker), it offers a similar performance. Adafruit offers [detailed tutorials on how to use this charger as well as documentation on how it all works](http://learn.adafruit.com/usb-dc-and-solar-lipoly-charger).
 
 <div align="center"><img src="https://cdn-shop.adafruit.com/970x728/4755-06.jpg" alt="Small solar recharging board" width="60%" /></div>
-<div align="center"><sub>Adafruit Universal USB / DC / Solar Lithium Ion/Polymer charger</sub></div>
+<div align="center"><sub>Adafruit Universal USB/DC/Solar Lithium-Ion/Polymer charger</sub></div>
 <br>
 
-This charger is the only one you need to keep all your Lithium Polymer (LiPoly) or Lithium Ion (LiIon) rechargeable batteries topped up. No matter the power source at your disposal! The Adafruit Universal USB / DC / Solar Lithium Ion/Polymer Charger can use USB, DC or Solar power, with a wide 5-10V input voltage range! The charger chip is super smart, and will reduce the current draw if the input voltage starts to dip under 4.5V, making it a perfect near-MPPT solar charger that you can use with a wide range of panels.
+[This charger](https://www.adafruit.com/product/4755) is an all-in-one circuit for all Lithium Polymer (LiPoly) or Lithium Ion (LiIon) rechargeable batteries. This Adafruit Universal USB/DC/Solar Lithium-Ion/Polymer Charger can use USB, DC or Solar power, with a wide 5-10V input Voltage range as well as a wide range of panels. The charger chip is designed to reduce the current draw if the input voltage starts to dip under 4.5V, making it similar to MPPT charge controllers. Even though this was designed with solar in mind, it also works with a plain USB or DC charger. 
 
-Even though we designed it with solar in mind, it's also great as a plain USB or DC charger - we like that you can use 5V or 9V chargers without worry, and the high charge rate is great for quickly charging up those large battery packs!
+pic
 
-DF Robot offers this Solar Power Manager that can power 5V/1A devices through, yet again, a 3.7V Lithium battery charged via a 4.5-6V solar panel. There are other similar charging circuits around, but overall when it comes to recharging circuits make sure it is from a reputable source and that it is well documented so you know exactly what kinds of applications, voltage and amperages it is rated to handle! 
+[DF Robot](https://www.dfrobot.com/search-solar.html) offers a [Solar Power Manager](https://www.dfrobot.com/product-1712.html) that can power 5V/1A devices through, yet again, a 3.7V Lithium battery charged via a 4.5-6V solar panel. 
+
+There are other similar charging circuits around, but overall when it comes to recharging circuits make sure it is from a reputable source and that it is well documented so you know exactly what kinds of applications, voltage and amperages it is rated to handle! 
 
 
 ### Plug-n-play kits 
