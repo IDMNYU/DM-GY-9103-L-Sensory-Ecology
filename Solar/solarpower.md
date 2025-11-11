@@ -69,10 +69,10 @@ Approaches can range from easy _plug-n-play kits_ to more experimental or educat
 ### Plug-n-play kits 
 For simple, ready-to-use setups, plug-and-play solar kits such as those from [**Voltaic Systems**](https://voltaicsystems.com/solar-panel-kits/)
 
-https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/74b646e2eb36f021e51e10decd839263304e8bca/images/10WKIT__76242.jpg
 
+[5.5Watt Kit](https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/9772a1c7f360746cf181094698885c32a80ef0b0/images/5.5W-Kit__68577.jpg)
 
-
+[10Watt Kit](https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/74b646e2eb36f021e51e10decd839263304e8bca/images/10WKIT__76242.jpg)
 
 offer both [solar panels](https://voltaicsystems.com/small-solar-panels/) paired with [integrated battery packs + charge controllers](https://voltaicsystems.com/iot-battery-packs/) designed for ease and consistency. The [V25](https://voltaicsystems.com/v25/), [V50](https://voltaicsystems.com/V50/) & [V75](https://voltaicsystems.com/v75) in particular. 
 
