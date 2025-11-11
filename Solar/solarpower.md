@@ -83,6 +83,10 @@ The [AEM10941 harvesting IC](https://www.mouser.com/new/e-peas/e-peas-aem10941-s
 <div align="center"><img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/616b6cf070718cdd2642ce9225f1b45f73b25e44/images/aemsuca2.png" alt="Small solar recharging board" width="60%" /></div>
 <div align="center"><sub>The AEMSUCA powering a TrinketM0 and E-Paper Display.</sub></div>
 
+**Supercapacitors** store energy electrostatically rather than chemically, allowing them to charge and discharge much faster than batteries. In solar applications, they capture and release energy efficiently during fluctuating sunlight conditions, making them ideal for powering low-energy or intermittent systems without the wear and degradation typical of batteries. Unlike batteries, supercapacitors store energy through physical charge separation rather than chemical reactions, giving them longer lifespans, faster charging, and making them a more sustainable option with fewer material and recycling concerns.
+
+**Electrostatically** means that supercapacitors store energy by separating electric charges on two conductive plates, rather than through chemical reactions like in batteries. When voltage is applied, positive and negative charges build up on the plates and are held apart by a thin insulating layer (the dielectric or electrolyte), creating an electric field that stores energy.
+
 ## Solar Recharging Circuits 
 Most small solar setups for microcontrollers use low-wattage panels connected to a charging circuit with lithium-polymer or lithium-ion batteries. Lithium-ion or lithium-polymer batteries are the standard choice for microcontrollers because they offer high energy density, stable voltage, and reliable rechargeable performance in a compact form. Unfortunately though, lithium-ion and lithium-polymer batteries are generally more suitable for indoor conditions, since they perform best within moderate temperature ranges and can be sensitive to extreme heat, cold, or direct sunlight.
 
