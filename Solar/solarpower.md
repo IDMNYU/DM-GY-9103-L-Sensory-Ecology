@@ -74,5 +74,8 @@ For simple, ready-to-use setups, plug-and-play solar kits such as those from [**
 
 offer both [solar panels](https://voltaicsystems.com/small-solar-panels/) paired with [integrated battery packs + charge controllers](https://voltaicsystems.com/iot-battery-packs/) designed for ease and consistency. The [V25](https://voltaicsystems.com/v25/), [V50](https://voltaicsystems.com/V50/) & [V75](https://voltaicsystems.com/v75) battery packs are particular versitile. I also use them for solar charging my portable devices, let them charge up in the Sun and throw them in my back as a back-up power bank. 
 
+<img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/main/images/v50-how-it-works.jpg">
+<div align="center"><sub>Voltaic Systems Solar Kits</sub></div><br>
+
 ### Larger DIY off-grid PV 
 
