@@ -62,7 +62,7 @@ When powering microcontrollers projects (Arduino, etc.) or single board computer
 Approaches can range from easy _plug-n-play kits_ to more experimental or educational builds, where you can assemble your own _solar recharging circuits_, or for ultra-efficient or intermittent applications, _low-power solar systems using supercapacitors_ can store just enough energy for short bursts of uptime, supporting lightweight and environmentally responsive designs.
 
 ## Low-power & Battery-less (Supercapacitors) 
-The AEMSUCA is a highly efficient solar powered supercapacitor charger with two regulated outputs designed by Jasper Sikken in the Netherlands. It is based on the [**AEM10941 Solar Harvesting IC** from E-peas](https://www.mouser.com/new/e-peas/e-peas-aem10941-solar-energy-harvesting-ic/?srsltid=AfmBOoonEYt0ZTCYKisSAj9F7xGoW5foGiZDyC6-fmOtXAsAiF072jqa). 
+[**The AEMSUCA**](https://www.tindie.com/products/jaspersikken/solar-harvesting-into-supercapacitors/) is a highly efficient solar powered supercapacitor charger with two regulated outputs designed by Jasper Sikken in the Netherlands. It is based on the [AEM10941 Solar Harvesting IC from E-peas](https://www.mouser.com/new/e-peas/e-peas-aem10941-solar-energy-harvesting-ic/?srsltid=AfmBOoonEYt0ZTCYKisSAj9F7xGoW5foGiZDyC6-fmOtXAsAiF072jqa). 
 
 <div align="center"><img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/616b6cf070718cdd2642ce9225f1b45f73b25e44/images/aemsuca.png" alt="Small solar recharging board" width="60%" /></div>
 <div align="center"><sub>The AEMSUCA board by Jasper Sikken.</sub></div>
@@ -70,7 +70,7 @@ The AEMSUCA is a highly efficient solar powered supercapacitor charger with two 
 
 This circuit converts solar energy from a small solar panel into energy stored in supercapacitors and even operates under indoor light. The board provides two regulated outputs that activate once the supercapacitor is sufficiently charged, along with a low-voltage warning that signals impending shutdown.
 
-The [**AEM10941 harvesting IC**](https://www.mouser.com/new/e-peas/e-peas-aem10941-solar-energy-harvesting-ic/?srsltid=AfmBOoonEYt0ZTCYKisSAj9F7xGoW5foGiZDyC6-fmOtXAsAiF072jqa) is very suitable for indoor applications because it has an ultra low power startup. The IC gets most power out of the solar cells by doing MPPT maximum power point tracking every 5 seconds. The AEM10941 can charge a series of supercapacitors from indoor light but it is suitable ONLY for **very low power applications**.
+The [AEM10941 harvesting IC](https://www.mouser.com/new/e-peas/e-peas-aem10941-solar-energy-harvesting-ic/?srsltid=AfmBOoonEYt0ZTCYKisSAj9F7xGoW5foGiZDyC6-fmOtXAsAiF072jqa) is very suitable for indoor applications because it has an ultra low power startup. The IC gets most power out of the solar cells by doing MPPT maximum power point tracking every 5 seconds. The AEM10941 can charge a series of supercapacitors from indoor light but it is suitable ONLY for **very low power applications**.
 
 <div align="center"><img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/616b6cf070718cdd2642ce9225f1b45f73b25e44/images/aemsuca1.png" alt="Small solar recharging board" width="60%" /></div>
 <div align="center"><sub>The AEMSUCA powering a TrinketM0 and OLED Display.</sub></div>
