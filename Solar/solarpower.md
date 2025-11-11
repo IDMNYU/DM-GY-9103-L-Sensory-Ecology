@@ -58,14 +58,17 @@ The **charge controller** optimizes the energy harvested from the PV panel, ensu
 
 ## Some options for projects
 
-When powering microcontrollers projects (Arduino, etc.) or single board computer projects (Raspberry Pi, etc.) with solar energy, there are a range of approaches depending on your needs, scale, and desired level of customization and uptime. Approaches can range from easy _plug-n-play kits_ to more experimental or educational builds, where you can assemble your own _solar recharging circuits_, or for ultra-efficient or intermittent applications, _low-power solar systems using supercapacitors_ can store just enough energy for short bursts of uptime, supporting lightweight and environmentally responsive designs.
+When powering microcontrollers projects (Arduino, etc.) or single board computer projects (Raspberry Pi, etc.) with solar energy, there are a range of approaches depending on your needs, scale, and desired level of customization and uptime. 
 
-### Lowest-power & supercapacitors 
+Approaches can range from easy _plug-n-play kits_ to more experimental or educational builds, where you can assemble your own _solar recharging circuits_, or for ultra-efficient or intermittent applications, _low-power solar systems using supercapacitors_ can store just enough energy for short bursts of uptime, supporting lightweight and environmentally responsive designs.
+
+### Low-power & Battery-less (Supercapacitors) 
+
 
 ### Solar recharging 
 
 ### Plug-n-play kits 
-For simple, ready-to-use setups, plug-and-play solar kits such as those from Voltaic Systems offer panels paired with integrated batteries + charge controllers designed for ease and consistency.
+For simple, ready-to-use setups, plug-and-play solar kits such as those from [Voltaic Systems](https://voltaicsystems.com/solar-panel-kits/) offer panels paired with integrated batteries + charge controllers designed for ease and consistency.
 
 ### Larger DIY off-grid PV 
 
