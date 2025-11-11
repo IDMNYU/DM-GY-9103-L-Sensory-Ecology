@@ -6,7 +6,8 @@ For most DC-based off-grid systems it really comes down to four main components 
 
 ### PV 
 #### It produces electricity when exposed to light
-![PV Panel](https://github.com/alexnathanson/solar-protocol/blob/17bf2e020b7f5992ba648b61bbfd3f9b7c1dcf36/wikimg/panel.png)
+![PV Panel](https://github.com/alexnathanson/solar-protocol/blob/17bf2e020b7f5992ba648b61bbfd3f9b7c1dcf36/wikimg/panel.png) 
+_Photovoltaic Panel_
 
 **Photovoltaic** means 'voltage from light' and refers to a solid-state semiconductor device, aka a solar cell, that produces a potential difference (Voltage) and current of electrons (Electricity) when exposed to light. PV panels, or modules, are made of multiple solar cells assembled between protective layers of glass and plastic, and typically framed in aluminum (for easy mounting). 
 
@@ -17,6 +18,7 @@ The PV modules are available in a range of brands, sizes, and output capacity, a
 ### Charge controller 
 #### It regulates the flow of electricity from PV modules to batteries
 ![Charge Controller](https://github.com/alexnathanson/solar-protocol/blob/17bf2e020b7f5992ba648b61bbfd3f9b7c1dcf36/wikimg/controllersm.png)
+_Charge Controller_
 
 The primary function of a charge controller is to regulate the flow of electric current from the array of solar modules to the batteries. This ensures the batteries are correctly charged and prevents damage from over-charging. Charge controllers come in different types (PWM vs MPPT) and range of capacities based on the voltage and current they can handle. 
 
@@ -27,6 +29,7 @@ An **MPPT charge controller** can accept the input from the solar modules at hig
 ### Battery 
 #### It stores electricity
 ![Battery](https://github.com/alexnathanson/solar-protocol/blob/17bf2e020b7f5992ba648b61bbfd3f9b7c1dcf36/wikimg/batterysm.png)
+_Battery_
 
 The two most common types of batteries used in renewable energy systems are deep-cycle lead-acid batteries and lithium-ion batteries. Both types of batteries work well and provide dependable energy storage for off-grid solar power systems.
 
