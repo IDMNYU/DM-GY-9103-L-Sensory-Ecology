@@ -6,8 +6,7 @@ For most DC-based off-grid systems it really comes down to four main components 
 
 ### PV 
 #### It produces electricity when exposed to light
-![PV Panel](https://github.com/alexnathanson/solar-protocol/blob/17bf2e020b7f5992ba648b61bbfd3f9b7c1dcf36/wikimg/panel.png
-)
+![PV Panel](https://github.com/alexnathanson/solar-protocol/blob/17bf2e020b7f5992ba648b61bbfd3f9b7c1dcf36/wikimg/panel.png)
 
 Photovoltaic means 'voltage from light' and refers to a solid-state semiconductor device, aka a solar cell, that produces a potential difference (Voltage) and current of electrons (Electricity) when exposed to light. PV panels, or modules, are made of multiple solar cells assembled between protective layers of glass and plastic, and typically framed in aluminum (for easy mounting). 
 
@@ -68,7 +67,10 @@ Approaches can range from easy _plug-n-play kits_ to more experimental or educat
 ### Solar recharging 
 
 ### Plug-n-play kits 
-For simple, ready-to-use setups, plug-and-play solar kits such as those from [Voltaic Systems](https://voltaicsystems.com/solar-panel-kits/) offer panels paired with integrated batteries + charge controllers designed for ease and consistency.
+For simple, ready-to-use setups, plug-and-play solar kits such as those from [**Voltaic Systems**](https://voltaicsystems.com/solar-panel-kits/) offer both [solar panels](https://voltaicsystems.com/small-solar-panels/): 
+
+
+paired with [integrated battery packs + charge controllers](https://voltaicsystems.com/iot-battery-packs/) designed for ease and consistency. The [V25](https://voltaicsystems.com/v25/), [V50](https://voltaicsystems.com/V50/) & [V75](https://voltaicsystems.com/v75) in particular. 
 
 ### Larger DIY off-grid PV 
 
