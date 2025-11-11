@@ -62,13 +62,22 @@ When powering microcontrollers projects (Arduino, etc.) or single board computer
 Approaches can range from easy _plug-n-play kits_ to more experimental or educational builds, where you can assemble your own _solar recharging circuits_, or for ultra-efficient or intermittent applications, _low-power solar systems using supercapacitors_ can store just enough energy for short bursts of uptime, supporting lightweight and environmentally responsive designs.
 
 ## Low-power & Battery-less (Supercapacitors) 
-The AEMSUCA is a 15x20mm board for the AEM10941 Solar Harvesting IC from E-peas. It efficiently converts solar panel energy into SUperCApacitor charge, it even works with indoor light. It features two regulated outputs that are enabled when the supercapacitor has sufficient charge, and a low voltage warning that informs the user of impending shutdown when the supercapacitors run low. It easily integrates in other projects because of the castellated via's, and when soldered onto 0.1' pitch header it fits in a bread board.
+The AEMSUCA is a highly efficient solar powered supercapacitor charger with two regulated outputs designed by Jasper Sikken in the Netherlands. It is based on the [**AEM10941 Solar Harvesting IC** from E-peas](https://www.mouser.com/new/e-peas/e-peas-aem10941-solar-energy-harvesting-ic/?srsltid=AfmBOoonEYt0ZTCYKisSAj9F7xGoW5foGiZDyC6-fmOtXAsAiF072jqa). 
 
-<div align="center"><img src="https://cdn-shop.adafruit.com/970x728/390-06.jpg" alt="Small solar recharging board" width="60%" /></div>
-<div align="center"><sub>Adafruit USB/DC/Solar Lithium-Ion/Polymer Charger</sub></div>
+<div align="center"><img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/616b6cf070718cdd2642ce9225f1b45f73b25e44/images/aemsuca.png" alt="Small solar recharging board" width="60%" /></div>
+<div align="center"><sub>The AEMSUCA board by Jasper Sikken.</sub></div>
 <br>
 
-This board is special because it integrates maximum power tracking, supercapacitor charging and two regulates outputs in a tiny and easy to integrate board. There's is no other board with so little passive components.
+This circuit converts solar energy from a small solar panel into energy stored in supercapacitors and even operates under indoor light. The board provides two regulated outputs that activate once the supercapacitor is sufficiently charged, along with a low-voltage warning that signals impending shutdown.
+
+<div align="center"><img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/616b6cf070718cdd2642ce9225f1b45f73b25e44/images/aemsuca1.png" alt="Small solar recharging board" width="50%" /></div>
+<div align="center"><sub>The AEMSUCA powering a TrinketM0 and OLED Display</sub></div>
+<br>
+
+<div align="center"><img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/616b6cf070718cdd2642ce9225f1b45f73b25e44/images/aemsuca2.png" alt="Small solar recharging board" width="50%" /></div>
+<div align="center"><sub>The AEMSUCA powering a TrinketM0 and E-Paper Display</sub></div>
+<br>
+
 
 The [**AEM10941 harvesting IC**](https://www.mouser.com/new/e-peas/e-peas-aem10941-solar-energy-harvesting-ic/?srsltid=AfmBOoonEYt0ZTCYKisSAj9F7xGoW5foGiZDyC6-fmOtXAsAiF072jqa) is very suitable for indoor applications because it has an ultra low power startup. The IC gets most power out of the solar cells by doing MPPT maximum power point tracking every 5 seconds. The AEM10941 can charge a series of supercapacitors from indoor light but it is suitable ONLY for **very low power applications**.
 
