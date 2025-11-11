@@ -40,8 +40,8 @@ Make sure to check your local regulations and safety guidelines before using or 
 #### It converts direct current (DC) to alternating current ([AC](https://www.buildwithrise.com/stories/ac-dc-power)) suitable for home appliances
 PV modules and batteries produce electricity in the form of direct current (DC). This can charge devices that use DC, like phones, tablets, and battery maintenance chargers. You can get DC lighting and appliances for your off-grid place, especially at motorhomes and sailing boat shops. But the most commonly available and affordable appliances run on alternating current (AC), and the wiring for AC in a building is more standard for electricians. A highly efficient device called an inverter can convert DC from your batteries to AC for your house wiring. For home use, there are two basic kinds of inverters: micro-inverters and string inverters.
 
-_-- Illustrations by Crystal Chen
-_
+_-- Illustrations by Crystal Chen_
+
 ## TL;TR
 
 The core components of an off-grid solar system include the photovoltaic (PV) panel, battery, and charge controller. 
