@@ -73,10 +73,10 @@ This circuit converts solar energy from a small solar panel into energy stored i
 The [**AEM10941 harvesting IC**](https://www.mouser.com/new/e-peas/e-peas-aem10941-solar-energy-harvesting-ic/?srsltid=AfmBOoonEYt0ZTCYKisSAj9F7xGoW5foGiZDyC6-fmOtXAsAiF072jqa) is very suitable for indoor applications because it has an ultra low power startup. The IC gets most power out of the solar cells by doing MPPT maximum power point tracking every 5 seconds. The AEM10941 can charge a series of supercapacitors from indoor light but it is suitable ONLY for **very low power applications**.
 
 <div align="center"><img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/616b6cf070718cdd2642ce9225f1b45f73b25e44/images/aemsuca1.png" alt="Small solar recharging board" width="60%" /></div>
-<div align="center"><sub>The AEMSUCA powering a TrinketM0 and OLED Display</sub></div>
+<div align="center"><sub>The AEMSUCA powering a TrinketM0 and OLED Display.</sub></div>
 <br>
 <div align="center"><img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/616b6cf070718cdd2642ce9225f1b45f73b25e44/images/aemsuca2.png" alt="Small solar recharging board" width="60%" /></div>
-<div align="center"><sub>The AEMSUCA powering a TrinketM0 and E-Paper Display</sub></div>
+<div align="center"><sub>The AEMSUCA powering a TrinketM0 and E-Paper Display.</sub></div>
 
 ## Solar Recharging Circuits 
 Most small solar setups for microcontrollers use low-wattage panels connected to a charging circuit with lithium-polymer or lithium-ion batteries. Lithium-ion or lithium-polymer batteries are the standard choice for microcontrollers because they offer high energy density, stable voltage, and reliable rechargeable performance in a compact form. Unfortunately though, lithium-ion and lithium-polymer batteries are generally more suitable for indoor conditions, since they perform best within moderate temperature ranges and can be sensitive to extreme heat, cold, or direct sunlight.
@@ -84,19 +84,19 @@ Most small solar setups for microcontrollers use low-wattage panels connected to
 Here are a couple of **recharging circuits** available from [Adafruit Industries](https://www.adafruit.com/search?q=solar): 
 
 <div align="center"><img src="https://cdn-shop.adafruit.com/970x728/390-06.jpg" alt="Small solar recharging board" width="60%" /></div>
-<div align="center"><sub>Adafruit USB/DC/Solar Lithium-Ion/Polymer Charger</sub></div>
+<div align="center"><sub>Adafruit USB/DC/Solar Lithium-Ion/Polymer Charger.</sub></div>
 <br>
 
 [This circuit](https://www.adafruit.com/product/390) is designed specifically for solar charging, and will automatically draw the most current possible from the panel in any light condition. Even thought it isn't a 'true' MPPT (max power point tracker), it offers a similar performance. Adafruit offers [detailed tutorials on how to use this charger as well as documentation on how it all works](http://learn.adafruit.com/usb-dc-and-solar-lipoly-charger).
 
 <div align="center"><img src="https://cdn-shop.adafruit.com/970x728/4755-06.jpg" alt="Small solar recharging board" width="60%" /></div>
-<div align="center"><sub>Adafruit Universal USB/DC/Solar Lithium-Ion/Polymer charger</sub></div>
+<div align="center"><sub>Adafruit Universal USB/DC/Solar Lithium-Ion/Polymer charger.</sub></div>
 <br>
 
 [This charger](https://www.adafruit.com/product/4755) is an all-in-one circuit for all Lithium Polymer (LiPoly) or Lithium Ion (LiIon) rechargeable batteries. This Adafruit Universal USB/DC/Solar Lithium-Ion/Polymer Charger can use USB, DC or Solar power, with a wide 5-10V input Voltage range as well as a wide range of panels. The charger chip is designed to reduce the current draw if the input voltage starts to dip under 4.5V, making it similar to MPPT charge controllers. Even though this was designed with solar in mind, it also works with a plain USB or DC charger. 
 
 <div align="center"><img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/52814af310166b7b3d6091826f8c164995667a7e/images/dfrobot.png" alt="Small solar recharging board" width="60%" /></div>
-<div align="center"><sub>DF Robot Solar Power Manager 5V</sub></div>
+<div align="center"><sub>DF Robot Solar Power Manager 5V.</sub></div>
 <br>
 
 [DF Robot](https://www.dfrobot.com/search-solar.html) offers a [Solar Power Manager](https://www.dfrobot.com/product-1712.html) that can power 5V/1A devices through, yet again, a 3.7V Lithium battery charged via a 4.5-6V solar panel. The module also has various protections for the battery, solar panel and the output, which helps stability and safety.
@@ -108,12 +108,12 @@ There are other similar charging circuits around, but overall when it comes to r
 For simple, ready-to-use setups, plug-and-play solar kits such as those from [**Voltaic Systems**](https://voltaicsystems.com/solar-panel-kits/)
 
 <img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/9772a1c7f360746cf181094698885c32a80ef0b0/images/5.5W-Kit__68577.jpg" style="width:40%;"><img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/74b646e2eb36f021e51e10decd839263304e8bca/images/10WKIT__76242.jpg" style="width:40%;">
-<div align="left"><sub>Voltaic Systems 5.5W and 10W Solar Kits</sub></div><br>
+<div align="left"><sub>Voltaic Systems 5.5W and 10W Solar Kits.</sub></div><br>
 
 offer both [solar panels](https://voltaicsystems.com/small-solar-panels/) paired with [integrated battery packs + charge controllers](https://voltaicsystems.com/iot-battery-packs/) designed for ease and consistency. The [V25](https://voltaicsystems.com/v25/), [V50](https://voltaicsystems.com/V50/) & [V75](https://voltaicsystems.com/v75) battery packs are particular versitile. I also use them for solar charging my portable devices, let them charge up in the Sun and throw them in my back as a back-up power bank. 
 
 <img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/main/images/v50-how-it-works.jpg">
-<div align="center"><sub>Voltaic Systems Solar Kits</sub></div><br>
+<div align="center"><sub>Voltaic Systems Solar Kits.</sub></div><br>
 
 ## Larger Plug-n-Play Off-grid PV 
 Larger plug-and-play systems like [GoalZero](https://goalzero.com/collections/portable-solar-generator-kits/products/yeti-1500x-2-nomad-200-solar-generator) and [GroWatt](https://growattportable.com/products/growatt-infinity-2000-portable-power-station) offer foldable panels and integrated batteries with built-in charge controllers and inverters, creating a portable, all-in-one solution ideal for temporary installations that require easy setup and mobility over permanent infrastructure. While more expensive, they might be useful options for certain environments and conditions. 
