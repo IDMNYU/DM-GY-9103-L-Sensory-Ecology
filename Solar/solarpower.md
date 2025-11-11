@@ -62,6 +62,13 @@ When powering microcontrollers projects (Arduino, etc.) or single board computer
 Approaches can range from easy _plug-n-play kits_ to more experimental or educational builds, where you can assemble your own _solar recharging circuits_, or for ultra-efficient or intermittent applications, _low-power solar systems using supercapacitors_ can store just enough energy for short bursts of uptime, supporting lightweight and environmentally responsive designs.
 
 ## Low-power & Battery-less (Supercapacitors) 
+The AEMSUCA is a 15x20mm board for the AEM10941 Solar Harvesting IC from E-peas. It efficiently converts solar panel energy into SUperCApacitor charge, it even works with indoor light. It features two regulated outputs that are enabled when the supercapacitor has sufficient charge, and a low voltage warning that informs the user of impending shutdown when the supercapacitors run low. It easily integrates in other projects because of the castellated via's, and when soldered onto 0.1' pitch header it fits in a bread board.
+
+This board is special because it integrates maximum power tracking, supercapacitor charging and two regulates outputs in a tiny and easy to integrate board. There's is no other board with so little passive components.
+
+The AEM10941 harvesting IC is very suitable for indoor applications because it has an ultra low power startup. The boost converter starts at a very low 380 mV input voltage and 3 uW input power. The IC gets most power out of the solar cells by doing MPPT maximum power point tracking every 5 seconds.
+
+As you can see the AEM10941 can charge a supercapacitors from indoor light but it is suitable ONLY for very low power applications.
 
 ## Solar Recharging Circuits 
 Most small solar setups for microcontrollers use low-wattage panels connected to a charging circuit with lithium-polymer or lithium-ion batteries. Lithium-ion or lithium-polymer batteries are the standard choice for microcontrollers because they offer high energy density, stable voltage, and reliable rechargeable performance in a compact form. Unfortunately though, lithium-ion and lithium-polymer batteries are generally more suitable for indoor conditions, since they perform best within moderate temperature ranges and can be sensitive to extreme heat, cold, or direct sunlight.
