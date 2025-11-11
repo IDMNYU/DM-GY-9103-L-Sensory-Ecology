@@ -84,9 +84,9 @@ Here are a couple of **recharging circuits** available from [Adafruit Industries
 <div align="center"><sub>DF Robot </sub></div>
 <br>
 
-[DF Robot](https://www.dfrobot.com/search-solar.html) offers a [Solar Power Manager](https://www.dfrobot.com/product-1712.html) that can power 5V/1A devices through, yet again, a 3.7V Lithium battery charged via a 4.5-6V solar panel.
+[DF Robot](https://www.dfrobot.com/search-solar.html) offers a [Solar Power Manager](https://www.dfrobot.com/product-1712.html) that can power 5V/1A devices through, yet again, a 3.7V Lithium battery charged via a 4.5-6V solar panel. The module also has various protections for the battery, solar panel and the output, which helps stability and safety.
 
-There are other similar charging circuits around, but overall when it comes to recharging circuits make sure it is from a reputable source and that it is well documented so you know exactly what kinds of applications, voltage and amperages it is rated to handle! 
+There are other similar charging circuits around, but overall when it comes to recharging circuits make sure it is from a reputable source and that it is well documented **so you know exactly what kinds of applications, voltage and amperages it is rated to handle!**
 
 
 ### Plug-n-play kits 
