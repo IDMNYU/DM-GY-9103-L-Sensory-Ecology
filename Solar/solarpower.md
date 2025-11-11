@@ -90,7 +90,7 @@ Here are a couple of **recharging circuits** available from [Adafruit Industries
 [This circuit](https://www.adafruit.com/product/390) is designed specifically for solar charging, and will automatically draw the most current possible from the panel in any light condition. Even thought it isn't a 'true' MPPT (max power point tracker), it offers a similar performance. Adafruit offers [detailed tutorials on how to use this charger as well as documentation on how it all works](http://learn.adafruit.com/usb-dc-and-solar-lipoly-charger).
 
 <div align="center"><img src="https://cdn-shop.adafruit.com/970x728/4755-06.jpg" alt="Small solar recharging board" width="60%" /></div>
-<div align="center"><sub>Adafruit Universal USB/DC/Solar Lithium-Ion/Polymer charger.</sub></div>
+<div align="center"><sub>Adafruit Universal USB/DC/Solar Lithium-Ion/Polymer Charger.</sub></div>
 <br>
 
 [This charger](https://www.adafruit.com/product/4755) is an all-in-one circuit for all Lithium Polymer (LiPoly) or Lithium Ion (LiIon) rechargeable batteries. This Adafruit Universal USB/DC/Solar Lithium-Ion/Polymer Charger can use USB, DC or Solar power, with a wide 5-10V input Voltage range as well as a wide range of panels. The charger chip is designed to reduce the current draw if the input voltage starts to dip under 4.5V, making it similar to MPPT charge controllers. Even though this was designed with solar in mind, it also works with a plain USB or DC charger. 
