@@ -68,11 +68,15 @@ Most small hobbyist solar recharging for microcontrollers usually revolves aroun
 
 Here are a couple of recharging circuits available from Adafruit Industries: 
 
-https://cdn-shop.adafruit.com/970x728/390-06.jpg
+<div align="center"><img src="https://cdn-shop.adafruit.com/970x728/390-06.jpg" alt="Small solar recharging board" width="60%" /></div>
+<div align="center"><sub>USB/DC/Solar Lithium-Ion/Polymer Charger</sub></div>
+<br>
 
 Our carefully designed charger is designed specifically for solar charging, and will automatically draw the most current possible from the panel in any light condition! Even thought it isn't a 'true' MPPT (max power point tracker), it has near-identical performance without the additional cost of a buck-converter. Our detailed tutorial on how to use this charger includes a design document explaining how it all works.
 
-https://cdn-shop.adafruit.com/970x728/4755-06.jpg
+<div align="center"><img src="[https://cdn-shop.adafruit.com/970x728/390-06.jpg](https://cdn-shop.adafruit.com/970x728/4755-06.jpg)" alt="Small solar recharging board" width="60%" /></div>
+<div align="center"><sub>USB/DC/Solar Lithium-Ion/Polymer Charger</sub></div>
+<br>
 
 This charger is the only one you need to keep all your Lithium Polymer (LiPoly) or Lithium Ion (LiIon) rechargeable batteries topped up. No matter the power source at your disposal! The Adafruit Universal USB / DC / Solar Lithium Ion/Polymer Charger can use USB, DC or Solar power, with a wide 5-10V input voltage range! The charger chip is super smart, and will reduce the current draw if the input voltage starts to dip under 4.5V, making it a perfect near-MPPT solar charger that you can use with a wide range of panels.
 
