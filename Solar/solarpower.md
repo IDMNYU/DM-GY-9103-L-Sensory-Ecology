@@ -63,7 +63,6 @@ Approaches can range from easy _plug-n-play kits_ to more experimental or educat
 
 ### Low-power & Battery-less (Supercapacitors) 
 
-
 ### Solar recharging 
 Most small hobbyist solar recharging for microcontrollers usually revolves around low W solar panels, plugged into a recharging circuit and lithium polymer or lithium ion batteries. Lithium-ion or lithium-polymer batteries are the standard choice for microcontrollers because they offer high energy density, stable voltage, and reliable rechargeable performance in a compact form. Unfortunately though, lithium-ion and lithium-polymer batteries are generally more suitable for indoor conditions, since they perform best within moderate temperature ranges and can be sensitive to extreme heat, cold, or direct sunlight.
 
