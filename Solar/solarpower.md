@@ -78,4 +78,15 @@ offer both [solar panels](https://voltaicsystems.com/small-solar-panels/) paired
 <div align="center"><sub>Voltaic Systems Solar Kits</sub></div><br>
 
 ### Larger DIY off-grid PV 
+Larger plug-and-play systems like [GoalZero](https://goalzero.com/collections/portable-solar-generator-kits/products/yeti-1500x-2-nomad-200-solar-generator) and [GroWatt](https://growattportable.com/products/growatt-infinity-2000-portable-power-station) offer foldable panels and integrated batteries with built-in charge controllers and inverters, creating a portable, all-in-one solution ideal for temporary installations that require easy setup and mobility over permanent infrastructure. While more expensive, they might be useful options for certain environments and conditions. 
+
+<div align="center"><img src="https://github.com/Community-Tech-Lab/PNK/blob/main/assets/Goalzero.png" alt="GoalZero integrated system)" width="700" /></div>
+<div align="center"><sub>Turn Key GoalZero System, 200W PV and 1516W Battery, ~$1780</sub></div>
+<div align="center"><img src="https://github.com/Community-Tech-Lab/PNK/blob/main/assets/growatt.png" alt="Growatt integrated system)" width="700" /></div>
+<div align="center"><sub>Turn Key GroWatt System, 200W PV and 2200W Battery, ~$2150</sub></div>
+
+## For More
+> [!IMPORTANT]
+> Different locations and varying equipment needs will require adjustments to your choice of components, such as PV panel size, battery capacity, and charge controller specifications, to ensure optimal performance and system reliability under specific environmental and operational conditions. There is a bit of math to do in order to make sure you are matching the power demand of your devices, the battery capacity, size of the panel and capacity of the charge controller, but for lower power microcontrollers & single board computers you should be able to get away with one of the earlier options! 
+
 
