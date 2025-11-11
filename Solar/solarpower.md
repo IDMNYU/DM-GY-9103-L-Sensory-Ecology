@@ -64,15 +64,15 @@ Approaches can range from easy _plug-n-play kits_ to more experimental or educat
 ### Low-power & Battery-less (Supercapacitors) 
 
 ### Solar recharging 
-Most small hobbyist solar recharging for microcontrollers usually revolves around low W solar panels, plugged into a recharging circuit and lithium polymer or lithium ion batteries. Lithium-ion or lithium-polymer batteries are the standard choice for microcontrollers because they offer high energy density, stable voltage, and reliable rechargeable performance in a compact form. Unfortunately though, lithium-ion and lithium-polymer batteries are generally more suitable for indoor conditions, since they perform best within moderate temperature ranges and can be sensitive to extreme heat, cold, or direct sunlight.
+Most small solar setups for microcontrollers use low-wattage panels connected to a charging circuit with lithium-polymer or lithium-ion batteries. Lithium-ion or lithium-polymer batteries are the standard choice for microcontrollers because they offer high energy density, stable voltage, and reliable rechargeable performance in a compact form. Unfortunately though, lithium-ion and lithium-polymer batteries are generally more suitable for indoor conditions, since they perform best within moderate temperature ranges and can be sensitive to extreme heat, cold, or direct sunlight.
 
-Here are a couple of recharging circuits available from Adafruit Industries: 
+Here are a couple of **recharging circuits** available from [Adafruit Industries](https://www.adafruit.com/search?q=solar): 
 
 <div align="center"><img src="https://cdn-shop.adafruit.com/970x728/390-06.jpg" alt="Small solar recharging board" width="60%" /></div>
 <div align="center"><sub>Adafruit USB/DC/Solar Lithium-Ion/Polymer Charger</sub></div>
 <br>
 
-Our carefully designed charger is designed specifically for solar charging, and will automatically draw the most current possible from the panel in any light condition! Even thought it isn't a 'true' MPPT (max power point tracker), it has near-identical performance without the additional cost of a buck-converter. Our detailed tutorial on how to use this charger includes a design document explaining how it all works.
+This circuit is designed specifically for solar charging, and will automatically draw the most current possible from the panel in any light condition. Even thought it isn't a 'true' MPPT (max power point tracker), it offers a similar performance. Adafruit offers [detailed tutorials on how to use this charger as well as documentation on how it all works](http://learn.adafruit.com/usb-dc-and-solar-lipoly-charger).
 
 <div align="center"><img src="https://cdn-shop.adafruit.com/970x728/4755-06.jpg" alt="Small solar recharging board" width="60%" /></div>
 <div align="center"><sub>Adafruit Universal USB / DC / Solar Lithium Ion/Polymer charger</sub></div>
