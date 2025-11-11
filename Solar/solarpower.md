@@ -55,15 +55,15 @@ The **charge controller** optimizes the energy harvested from the PV panel, ensu
 >[!WARNING]
 > **Warning:** _When connecting the components of a solar system, always connect the batteries to the charge controller first, before connecting the PV panel. This ensures the charge controller is properly configured to the battery’s voltage and avoids potential damage to the system._
 
-## Some options for projects
+## Some Options to Solar Power Your Projects
 
 When powering microcontrollers projects (Arduino, etc.) or single board computer projects (Raspberry Pi, etc.) with solar energy, there are a range of approaches depending on your needs, scale, and desired level of customization and uptime. 
 
 Approaches can range from easy _plug-n-play kits_ to more experimental or educational builds, where you can assemble your own _solar recharging circuits_, or for ultra-efficient or intermittent applications, _low-power solar systems using supercapacitors_ can store just enough energy for short bursts of uptime, supporting lightweight and environmentally responsive designs.
 
-### Low-power & Battery-less (Supercapacitors) 
+## Low-power & Battery-less (Supercapacitors) 
 
-### Solar recharging 
+## Solar Recharging Circuits 
 Most small solar setups for microcontrollers use low-wattage panels connected to a charging circuit with lithium-polymer or lithium-ion batteries. Lithium-ion or lithium-polymer batteries are the standard choice for microcontrollers because they offer high energy density, stable voltage, and reliable rechargeable performance in a compact form. Unfortunately though, lithium-ion and lithium-polymer batteries are generally more suitable for indoor conditions, since they perform best within moderate temperature ranges and can be sensitive to extreme heat, cold, or direct sunlight.
 
 Here are a couple of **recharging circuits** available from [Adafruit Industries](https://www.adafruit.com/search?q=solar): 
@@ -89,7 +89,7 @@ Here are a couple of **recharging circuits** available from [Adafruit Industries
 There are other similar charging circuits around, but overall when it comes to recharging circuits make sure it is from a reputable source and that it is well documented **so you know exactly what kinds of applications, voltage and amperages it is rated to handle!**
 
 
-### Plug-n-play kits 
+## Plug-n-Play Kits 
 For simple, ready-to-use setups, plug-and-play solar kits such as those from [**Voltaic Systems**](https://voltaicsystems.com/solar-panel-kits/)
 
 <img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/9772a1c7f360746cf181094698885c32a80ef0b0/images/5.5W-Kit__68577.jpg" style="width:40%;"><img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/74b646e2eb36f021e51e10decd839263304e8bca/images/10WKIT__76242.jpg" style="width:40%;">
@@ -100,7 +100,7 @@ offer both [solar panels](https://voltaicsystems.com/small-solar-panels/) paired
 <img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/main/images/v50-how-it-works.jpg">
 <div align="center"><sub>Voltaic Systems Solar Kits</sub></div><br>
 
-### Larger Plug-n-Play Off-grid PV 
+## Larger Plug-n-Play Off-grid PV 
 Larger plug-and-play systems like [GoalZero](https://goalzero.com/collections/portable-solar-generator-kits/products/yeti-1500x-2-nomad-200-solar-generator) and [GroWatt](https://growattportable.com/products/growatt-infinity-2000-portable-power-station) offer foldable panels and integrated batteries with built-in charge controllers and inverters, creating a portable, all-in-one solution ideal for temporary installations that require easy setup and mobility over permanent infrastructure. While more expensive, they might be useful options for certain environments and conditions. 
 
 <div align="center"><img src="https://github.com/Community-Tech-Lab/PNK/blob/main/assets/Goalzero.png" alt="GoalZero integrated system)" width="700" /></div>
