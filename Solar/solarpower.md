@@ -65,6 +65,22 @@ Approaches can range from easy _plug-n-play kits_ to more experimental or educat
 
 
 ### Solar recharging 
+Most small hobbyist solar recharging for microcontrollers usually revolves around low W solar panels, plugged into a recharging circuit and lithium polymer or lithium ion batteries. Lithium-ion or lithium-polymer batteries are the standard choice for microcontrollers because they offer high energy density, stable voltage, and reliable rechargeable performance in a compact form. Unfortunately though, lithium-ion and lithium-polymer batteries are generally more suitable for indoor conditions, since they perform best within moderate temperature ranges and can be sensitive to extreme heat, cold, or direct sunlight.
+
+Here are a couple of recharging circuits available from Adafruit Industries: 
+
+https://cdn-shop.adafruit.com/970x728/390-06.jpg
+
+Our carefully designed charger is designed specifically for solar charging, and will automatically draw the most current possible from the panel in any light condition! Even thought it isn't a 'true' MPPT (max power point tracker), it has near-identical performance without the additional cost of a buck-converter. Our detailed tutorial on how to use this charger includes a design document explaining how it all works.
+
+https://cdn-shop.adafruit.com/970x728/4755-06.jpg
+
+This charger is the only one you need to keep all your Lithium Polymer (LiPoly) or Lithium Ion (LiIon) rechargeable batteries topped up. No matter the power source at your disposal! The Adafruit Universal USB / DC / Solar Lithium Ion/Polymer Charger can use USB, DC or Solar power, with a wide 5-10V input voltage range! The charger chip is super smart, and will reduce the current draw if the input voltage starts to dip under 4.5V, making it a perfect near-MPPT solar charger that you can use with a wide range of panels.
+
+Even though we designed it with solar in mind, it's also great as a plain USB or DC charger - we like that you can use 5V or 9V chargers without worry, and the high charge rate is great for quickly charging up those large battery packs!
+
+DF Robot offers this Solar Power Manager that can power 5V/1A devices through, yet again, a 3.7V Lithium battery charged via a 4.5-6V solar panel. There are other similar charging circuits around, but overall when it comes to recharging circuits make sure it is from a reputable source and that it is well documented so you know exactly what kinds of applications, voltage and amperages it is rated to handle! 
+
 
 ### Plug-n-play kits 
 For simple, ready-to-use setups, plug-and-play solar kits such as those from [**Voltaic Systems**](https://voltaicsystems.com/solar-panel-kits/)
