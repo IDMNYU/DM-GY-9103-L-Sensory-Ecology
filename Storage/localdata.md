@@ -88,30 +88,29 @@ void loop(){
 
 ## MicroSD Card Breakout Boards
 
-MicroSD card breakout boards make it easy to add removable, high-capacity storage to Arduino and other embedded microcontroller projects. They typically include a card slot, voltage regulation, and level shifting to safely interface 3.3 V SD cards with 5 V microcontrollers, enabling convenient data logging, file storage, and media playback.
+**MicroSD card breakout boards** make it easy to add removable, high-capacity storage to Arduino and other embedded microcontroller projects. They typically include a card slot, voltage regulation, and level shifting to safely interface 3.3 V SD cards with 5 V microcontrollers, enabling convenient data logging, file storage, and media playback.
 
+<div align="center"><img src="https://cdn-shop.adafruit.com/970x728/254-02.jpg" alt="Small SD card breakout board" width="60%" /></div>
+<div align="center"><sub>Adafruit MicroSD card breakout board.</sub></div><br>
 
-![](https://cdn-shop.adafruit.com/970x728/254-02.jpg)
+There are a few microSD card breakout boards out there, or some boards meant specifically for datalogging purposes come with microSD card holders already built in.  
 
-There are a few microSD card breakout boards out there, or some boards meant specifically for datalogging purposes come with microSD card holders already built in. They generally use SPI as way to connect to the Arduino and communicate, by following the standard SPI wiring convention: GND to ground, 5V to 5V, CLK to pin 13, DO to pin 12, DI to pin 11, and CS to pin 10. For the Arduino Nano ESP32 you can see the preferred wiring below. 
+They generally use **SPI** as way to connect to the Arduino and communicate, by following the standard SPI wiring convention: GND to ground, 5V to 5V, CLK to pin 13, DO to pin 12, DI to pin 11, and CS to pin 10. Some breakout boards might be for 3V microcontrollers ONLY, so make sure to double check.
 
 ```
 /*
  * Connect the SD card to the following pins:
  *
- * SD Card | ESP32
- *    D2       -
- *    D3       SS
- *    CMD      MOSI
+ * SD Card | Nano ESP32
+ *
+ *    CS       10 
+ *    CMD      11
  *    VSS      GND
  *    VDD      3.3V
- *    CLK      SCK
- *    VSS      GND
- *    D0       MISO
- *    D1       -
+ *    CLK      SCK - 13
+ *    D0       12
  */
 ```
-
 You can then use the Arduino IDE's native SD library which supports FAT and FAT32 SD cards. 
 
 
