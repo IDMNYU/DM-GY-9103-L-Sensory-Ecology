@@ -88,5 +88,24 @@ void loop(){
 
 ## MicroSD Card Breakout Boards
 
+MicroSD card breakout boards make it easy to add removable, high-capacity storage to Arduino and other embedded microcontroller projects. They typically include a card slot, voltage regulation, and level shifting to safely interface 3.3 V SD cards with 5 V microcontrollers, enabling convenient data logging, file storage, and media playback.
+
 ![](https://cdn-shop.adafruit.com/970x728/254-02.jpg)
+
+```
+/*
+ * Connect the SD card to the following pins:
+ *
+ * SD Card | ESP32
+ *    D2       -
+ *    D3       SS
+ *    CMD      MOSI
+ *    VSS      GND
+ *    VDD      3.3V
+ *    CLK      SCK
+ *    VSS      GND
+ *    D0       MISO
+ *    D1       -
+ */
+```
 
