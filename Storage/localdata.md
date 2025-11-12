@@ -90,7 +90,10 @@ void loop(){
 
 MicroSD card breakout boards make it easy to add removable, high-capacity storage to Arduino and other embedded microcontroller projects. They typically include a card slot, voltage regulation, and level shifting to safely interface 3.3 V SD cards with 5 V microcontrollers, enabling convenient data logging, file storage, and media playback.
 
+
 ![](https://cdn-shop.adafruit.com/970x728/254-02.jpg)
+
+There are a few microSD card breakout boards out there, or some boards meant specifically for datalogging purposes come with microSD card holders already built in. They generally use SPI as way to connect to the Arduino and communicate, by following the standard SPI wiring convention: GND to ground, 5V to 5V, CLK to pin 13, DO to pin 12, DI to pin 11, and CS to pin 10. For the Arduino Nano ESP32 you can see the preferred wiring below. 
 
 ```
 /*
@@ -108,4 +111,8 @@ MicroSD card breakout boards make it easy to add removable, high-capacity storag
  *    D1       -
  */
 ```
+
+You can then use the Arduino IDE's native SD library which supports FAT and FAT32 SD cards. 
+
+
 
