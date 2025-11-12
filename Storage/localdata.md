@@ -104,7 +104,7 @@ They generally use **SPI** as way to connect to the Arduino and communicate, by 
  * SD Card | Nano ESP32
  *
  *    CS       10 
- *    CMD      11
+ *    D1       11
  *    VSS      GND
  *    VDD      3.3V
  *    CLK      SCK - 13
