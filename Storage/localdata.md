@@ -55,7 +55,7 @@ void loop(){
 
   // it is good practice to divide analog readings by 4 to take less space in the EEPROM
 
-  int val = analogRead(10) / 4;
+  int val = analogRead(2) / 4;
   
   // write the value to the appropriate byte of the EEPROM.
   // these values will remain there when the board is
