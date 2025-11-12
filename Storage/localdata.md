@@ -122,7 +122,7 @@ The ESP32 microprocessors contain flash memory that can hold a filesystem, inclu
 
 The Arduino Nano ESP32 boards have a total of 8Megs of RAM that can be used for this purpose
 
-# SPIFFS
+### SPIFFS
 SPIFFS is an acronym for Serial Peripheral Interface Flash File System. It is designed to be a lightweight system to interface between microcontrollers and flash memory devices. Before accessing the storage on the flash module, you will need to set up the board as indicated on [this tutorial page](https://docs.arduino.cc/tutorials/nano-esp32/spiff/). 
 
 Once you have initialized the board per the instructions above, [follow the instructions at the bottom of this page for loading a SPIFFS file uploader plugin to the Arduino IDE](https://github.com/espx-cz/arduino-spiffs-upload#installation). 
@@ -130,7 +130,7 @@ Once you have initialized the board per the instructions above, [follow the inst
 SPIFFS creates a flat file structure, there are no folders — everything lives at the root of the directory. 
 
 
-# LittleFS
+### LittleFS
 LittleFS is a slightly more modern file system than SPIFFS, but largely has the same functionality. You can create, delete, write, and modify html, css, javascript and other text files. You can save images to the flash as well. That said, it is slightly *more* complex than SPIFFS to use.
 
 It supports nested folders and has a more robust recovery system in case of failure during a power outage than SPIFFS.
