@@ -121,20 +121,9 @@ You can then use the Arduino IDE's native SD library which supports FAT and FAT3
 <div align="center"><sub>Arduino Nano ESP32 + Adafruit MicroSD card breakout board.</sub></div><br>
 
 ```
-/* This is a SD card tester code
- * Connect the SD card to the following pins:
- *
- * SD Card | ESP32
- *    D2       -
- *    D3       SS
- *    CMD      MOSI
- *    VSS      GND
- *    VDD      3.3V
- *    CLK      SCK
- *    VSS      GND
- *    D0       MISO
- *    D1       -
- */
+/* This is a SD card tester code that reads the size of the data stored on the card and reads some of the files on the card if named correctly
+*/
+
 #include "FS.h"
 #include "SD.h"
 #include "SPI.h"
