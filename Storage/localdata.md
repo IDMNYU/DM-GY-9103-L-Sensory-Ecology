@@ -12,5 +12,7 @@ The microcontroller on most Arduino boards includes usually about **512 bytes** 
 
 The [EEPROM library](https://docs.arduino.cc/learn/programming/eeprom-guide/) is included by default with the Arduino platform, so no external installation is required.
 
-## MICRO SD CARD BREAK-OUT BOARDS
+## MicroSD Card Breakout Boards
+
+
 
