@@ -113,5 +113,8 @@ They generally use **SPI** as way to connect to the Arduino and communicate, by 
 ```
 You can then use the Arduino IDE's native SD library which supports FAT and FAT32 SD cards. 
 
+<div align="center"><img src="https://cdn-shop.adafruit.com/970x728/254-02.jpg" alt="Small SD card breakout board" width="60%" /></div>
+<div align="center"><sub>Adafruit MicroSD card breakout board.</sub></div><br>
+
 
 
