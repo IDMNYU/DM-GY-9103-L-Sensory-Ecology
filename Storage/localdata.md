@@ -116,5 +116,25 @@ You can then use the Arduino IDE's native SD library which supports FAT and FAT3
 <div align="center"><img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/49e7934aed0a23a50901faf926b11a1fee7362f0/images/ESP_MicroSDCard_bb.png" alt="Small SD card breakout board" width="50%" /></div>
 <div align="center"><sub>Arduino Nano ESP32 + Adafruit MicroSD card breakout board.</sub></div><br>
 
+## SPIFFS and LittleFS on ESP32 boards
+
+The ESP32 microprocessors contain flash memory that can hold a filesystem, including full websites — images, css, javascript, html, and other text files. This is an advanced storage mechanism that can be quirky at best, particularly when using the regular Arduino IDE. Go after these if you're looking to have a full fledged website stored on an ESP32, or expected to store massive amounts of files in flash memory. 
+
+The Arduino Nano ESP32 boards have a total of 8Megs of RAM that can be used for this purpose
+
+# SPIFFS
+SPIFFS is an acronym for Serial Peripheral Interface Flash File System. It is designed to be a lightweight system to interface between microcontrollers and flash memory devices. Before accessing the storage on the flash module, you will need to set up the board as indicated on [this tutorial page](https://docs.arduino.cc/tutorials/nano-esp32/spiff/). 
+
+Once you have initialized the board per the instructions above, [follow the instructions at the bottom of this page for loading a SPIFFS file uploader plugin to the Arduino IDE](https://github.com/espx-cz/arduino-spiffs-upload#installation). 
+
+SPIFFS creates a flat file structure, there are no folders — everything lives at the root of the directory. 
+
+
+# LittleFS
+LittleFS is a slightly more modern file system than SPIFFS, but largely has the same functionality. You can create, delete, write, and modify html, css, javascript and other text files. You can save images to the flash as well. That said, it is slightly *more* complex than SPIFFS to use.
+
+It supports nested folders and has a more robust recovery system in case of failure during a power outage than SPIFFS.
+
+This [forum post walks you through the process of setting up a board](https://forum.arduino.cc/t/best-method-for-utilizing-on-board-flash/1222469/15) for use with LittleFS. There is an [upload tool you can add to the Arduino IDE here](https://github.com/earlephilhower/arduino-littlefs-upload), installation instructions are at the bottom of the page.
 
 
