@@ -12,6 +12,80 @@ The microcontroller on most Arduino boards includes usually about **512 bytes** 
 
 The [EEPROM library](https://docs.arduino.cc/learn/programming/eeprom-guide/) is included by default with the Arduino platform, so no external installation is required.
 
+Here is an example of how to save sensor readings onto a EEPROM on an Arduino Nano ESP 32
+
+```
+/*
+   EEPROM Write
+
+   Stores sensor values into the EEPROM.
+   These values will stay in the EEPROM when the board is
+   turned off and may be retrieved later by another sketch.
+*/
+
+#include "EEPROM.h"
+
+// the current address in the EEPROM (i.e. which byte
+// we're going to write to next)
+// starting with 0
+
+int addr = 0;
+
+#define EEPROM_SIZE 64
+// Defines the number of bytes to allocate for EEPROM (max 512).
+
+void setup(){
+
+  Serial.begin(115200);
+  Serial.println("start...");
+
+  if (!EEPROM.begin(EEPROM_SIZE)){
+    Serial.println("failed to initialise EEPROM"); delay(1000000);
+  }
+  Serial.println(" bytes read from Flash . Values are:");
+
+  for (int i = 0; i < EEPROM_SIZE; i++){
+    Serial.print(byte(EEPROM.read(i))); Serial.print(" ");
+  }
+  Serial.println();
+  Serial.println("writing random n. in memory");
+}
+
+void loop(){
+
+  // it is good practice to divide analog readings by 4 to take less space in the EEPROM
+
+  int val = analogRead(10) / 4;
+  
+  // write the value to the appropriate byte of the EEPROM.
+  // these values will remain there when the board is
+  // turned off.
+
+  EEPROM.write(addr, val);
+  Serial.print(val); Serial.print(" ");
+
+  // advance to the next address.  there are 512 bytes in
+  // the EEPROM, so go back to 0 when we hit 512.
+  // save all changes to the flash.
+  addr = addr + 1;
+  if (addr == EEPROM_SIZE){
+    Serial.println();
+    addr = 0;
+    EEPROM.commit();
+    Serial.print(EEPROM_SIZE);
+    Serial.println(" bytes written on Flash . Values are:");
+    for (int i = 0; i < EEPROM_SIZE; i++)
+    {
+      Serial.print(byte(EEPROM.read(i))); Serial.print(" ");
+    }
+    Serial.println(); Serial.println("----------------------------------");
+  }
+
+  delay(100);
+}
+
+```
+
 ## MicroSD Card Breakout Boards
 
 
