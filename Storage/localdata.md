@@ -95,7 +95,11 @@ void loop(){
 
 There are a few microSD card breakout boards out there, or some boards meant specifically for datalogging purposes come with microSD card holders already built in.  
 
-They generally use **SPI** as way to connect to the Arduino and communicate, by following the standard SPI wiring convention: GND to ground, 5V to 5V, CLK to pin 13, DO to pin 12, DI to pin 11, and CS to pin 10. Some breakout boards might be for 3V microcontrollers ONLY, so make sure to double check.
+Most SD cards work with no setup, but it's possible you have one that was used in a computer or camera and it cannot be read by the SD library. Formatting the card will create a file system that the Arduino can read and write to. You can [download a formatting tool](https://www.sdcard.org/downloads/formatter/) from the SD card association, or use your computer's built in disk formatting utility to format the card as with a MS-DOS(FAT) structure.
+
+Note that files and directories need to follow a naming system known as 8.3. That is, the file name is an all caps string  of 8 or fewer characters, and the extension is  is a 3 character extension, for example MYFILE.TXT is valid, while MYSUPERCOOLSTORAGEFINAL.TXT is not.
+
+SD cards generally use **SPI** as way to connect to the Arduino and communicate, by following the standard SPI wiring convention: GND to ground, 5V to 5V, CLK to pin 13, DO to pin 12, DI to pin 11, and CS to pin 10. Some breakout boards might be for 3V microcontrollers ONLY, so make sure to double check.
 
 ```
 /*
@@ -115,6 +119,10 @@ You can then use the Arduino IDE's native SD library which supports FAT and FAT3
 
 <div align="center"><img src="https://github.com/IDMNYU/DM-GY-9103-L-Sensory-Ecology/blob/49e7934aed0a23a50901faf926b11a1fee7362f0/images/ESP_MicroSDCard_bb.png" alt="Small SD card breakout board" width="50%" /></div>
 <div align="center"><sub>Arduino Nano ESP32 + Adafruit MicroSD card breakout board.</sub></div><br>
+
+There's a great [example in the Arduino documentation on using an SD card as a datalogger](https://docs.arduino.cc/learn/programming/sd-guide/) [(Archive.org version of the tutorial page)](https://web.archive.org/web/20201112012317/https://www.arduino.cc/en/Tutorial/LibraryExamples/Datalogger). 
+
+There are a number of different SD libraries out there, check if your board is compatible with the [default Arduino version](https://docs.arduino.cc/libraries/sd/), or if you need to use an alternate one. 
 
 ## SPIFFS and LittleFS on ESP32 boards
 
